@@ -29,7 +29,7 @@ jobs:
       # https://github.com/pyodide/pyodide/blob/main/Makefile.envs#L2
       PYTHON_VERSION: 3.12 # any 3.12.x version works
       EMSCRIPTEN_VERSION: 3.1.58
-      NODE_VERSION: 20
+      NODE_VERSION: 22
     steps:
       - name: Checkout scikit-image
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
